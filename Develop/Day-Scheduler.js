@@ -13,15 +13,15 @@ $(document).ready(function() {
         var value = $(this).siblings(".description").val();
         console.log(value);
 
-        var time = $(this).parent().attr("id");
-        console.log(time);
+        var clock = $(this).parent().attr("id");
+        console.log(clock);
 
 
 
     // I am saving to local storage
 
 
-    localStorage.setItem(time, value)
+    localStorage.setItem(clock, value)
 
     })
 

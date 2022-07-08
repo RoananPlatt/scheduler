@@ -17,7 +17,6 @@ $(document).ready(function() {
         console.log(clock);
 
 
-
     // I am saving to local storage
 
     localStorage.setItem(clock, value)

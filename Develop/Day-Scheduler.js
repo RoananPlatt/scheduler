@@ -20,7 +20,6 @@ $(document).ready(function() {
 
     // I am saving to local storage
 
-
     localStorage.setItem(clock, value)
 
     })

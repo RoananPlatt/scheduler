@@ -34,11 +34,11 @@ $(document).ready(function() {
     console.log(todayDate2);
     
     function loadDay(){  
-        $(timeOfDay).each()(function(){
+        //$(timeOfDay).each()(function(){
         
         var currentHour = parseInt
+        //})
     }
-    )}
 
 
     loadDay()
